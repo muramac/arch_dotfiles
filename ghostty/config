@@ -1,0 +1,43 @@
+# theme = Aizen Dark
+# theme = Carbonfox
+# theme = Ayu 
+# theme = TokyoNight Night
+theme = Sunset Drive 
+
+# font-family = "Iosevka Nerd Font"
+font-family = "Maple Mono NF"
+font-style = Regular
+font-size = 12
+font-feature = calt
+# Center the asterisk: Iosevka's VSAB selector. 8 = hex-mid (centered
+# 6-point). Default 1 = penta-high (sits high); 2 = penta-mid (5-point).
+font-feature = VSAB=5    
+
+# Plain-style italic glyphs (font.subf.dev "plain style"): upright i j k l x y.
+# cv32 left off on purpose so the cursive italic f stays.
+font-feature = cv33
+font-feature = cv34
+font-feature = cv35
+font-feature = cv36
+font-feature = cv37
+
+# window
+window-padding-y = 1
+window-padding-x = 4
+resize-overlay = never
+background-opacity = 0.85
+# background-opacity = 1
+window-inherit-working-directory = true
+
+# cursor
+cursor-style = "block"
+cursor-style-blink = false
+# Cursor styling + SSH session terminfo
+# (all shell integration options must be passed together)
+shell-integration-features = no-cursor,ssh-env
+
+# Slowdown mouse scrolling
+mouse-scroll-multiplier = 1
+confirm-close-surface = false
+
+window-decoration = false
